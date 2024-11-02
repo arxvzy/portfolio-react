@@ -1,8 +1,12 @@
 import { TypeAnimation } from "react-type-animation";
 import sectionImage from "../assets/section.png";
+import { Helmet } from "react-helmet";
 export default function Home() {
   return (
     <div className="w-full mt-20 flex">
+      <Helmet>
+        <title>Home | Arya Bima</title>
+      </Helmet>
       <div className="w-1/2 my-auto flex justify-end">
         <title>Arya Bima's Portfolio</title>
         <div className="w-1/2">
