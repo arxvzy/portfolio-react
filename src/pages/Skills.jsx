@@ -15,7 +15,6 @@ import phpImage from "../assets/php.svg";
 import laravelImage from "../assets/laravel.svg";
 
 import SkillsList from "../components/SkillsList";
-import SkillCard from "../components/SkillCard";
 
 const frontEndSkills = [
   {
